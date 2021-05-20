@@ -1,0 +1,13 @@
+#area of circle--Task 1
+
+pi = 3.142
+r = float(input("radius of the circle is : "))
+area = pi * r * r
+print("area of circle is: ",area) 
+
+
+#Task 2
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+print ("The extension of the file is : " + repr(f_extns[-1]))
